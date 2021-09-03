@@ -1,0 +1,30 @@
+
+/* table{
+
+    border-collapse: collapse;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+} */
+
+
+.table{
+    display: grid;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.table div{
+    border: 1px solid black;
+
+}
+
+.chossen{
+    background-color: blue;
+}
