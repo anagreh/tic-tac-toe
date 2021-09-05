@@ -6,39 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tic-tac-toe</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/popsub.js" ></script>
     <script src="scripts/script.js" defer></script>
 </head>
 <body>
-    
-    <!-- <table>
-        <tr>
-            <td>o</td>
-            <td>o</td>
-            <td>o</td>
-        </tr>
-        <tr>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-        </tr>
-        <tr>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
-        </tr>
 
-    </table> -->
-    <div class="slidecontainer">
-        <input type="range" min="3" max="15" value="3" class="slider" id="myRange">
-      </div>
 
-    <div class="table">
 
+    <div class="flex-horizontal">
+        <div class="slide-container">
+            <input type="range" min="3" max="15" value="3" class="slider" id="myRange" >
+        </div>
+
+        <div class='table-button'>
+            <div class="table">
+            </div>
+
+            <div class="button">
+                <button>Restart</button>
+            </div>
+            
+        </div>
+
+        
     </div>
-    <!-- <img src="images/x-mark-1.svg"> -->
-    <div class="button">
-        <button>start</button>
-    </div>
+
+
+    <div id="players">
+        <form id="add-player">
+
+            <input type="text" placeholder="Player Name" name="player" id="player-name">
     
+            <button id='player-submit-button' type="submit">+</button>
+    
+        </form>
+        <div id="output">
+
+        </div>
+    </div>
+
+
+
+
+
 </body>
 </html>
