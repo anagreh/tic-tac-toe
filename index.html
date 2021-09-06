@@ -16,6 +16,7 @@
     <div class="flex-horizontal">
         <div class="slide-container">
             <input type="range" min="3" max="15" value="3" class="slider" id="myRange" >
+            <div id='slider-value'>3</div>
         </div>
 
         <div class='table-button'>
@@ -35,7 +36,7 @@
     <div id="players">
         <form id="add-player">
 
-            <input type="text" placeholder="Player Name" name="player" id="player-name">
+            <input type="text" placeholder="Player Name" name="player" id="player-name" required>
     
             <button id='player-submit-button' type="submit">+</button>
     

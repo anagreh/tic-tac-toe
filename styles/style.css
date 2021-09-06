@@ -5,7 +5,7 @@ html, body {
 }
 
 :root {
-    --dim : 5;
+    --dim : 3;
 }
 
 
@@ -35,12 +35,15 @@ body{
 }
 
 .table img{
-    width: 66%;
-    height: auto;
+    width: 50px;
+    height: 50px;
+    
 
     animation-name: appear;
     animation-duration: 1.5s;
 }
+
+
 
 @keyframes appear {
     from { opacity: 0;    }
@@ -148,6 +151,14 @@ body{
     top: 186px;
     left: -240px;
     
+
+
+}
+
+#slider-value{
+    position: absolute;
+    transform: rotate(-90deg);
+
 
 
 }
